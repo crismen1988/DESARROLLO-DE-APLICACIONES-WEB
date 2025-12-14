@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6; /* Mejora de legibilidad */
+}
+
+header {
+  background-color: #4a6fa5;
+  font-size: 36px;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0;
+  display: flex; /* Mejora: usar Flexbox para el menú */
+  justify-content: center; /* Centra los ítems del menú */
+}
+
+nav ul li {
+  /* display: inline; - Reemplazado por Flexbox */
+  margin: 0 1rem; /* Espaciado ajustado */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li a:focus,
+nav ul li a:active {
+  text-decoration: underline;
+  color: #c9dff7; /* Color más claro al interactuar */
+}
+
+main {
+  padding: 1.5rem;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 1rem auto;
+  width: 50%;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+}
+
+th {
+  background-color: #ecf0f1;
+}
+
+form {
+  background-color: #ecf0f1;
+  padding: 1.5rem; 
+  border-radius: 5px;
+  max-width: 400px;
+  margin: 1.5rem auto; /* Margen superior ajustado por consistencia */
+}
+
+input, button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 10px;
+  border: 1px solid #ddd; /* Borde más sutil */
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+
+input:focus {
+  border-color: #4a6fa5; /* Resaltar al enfocar (UX) */
+  outline: none;
+}
+
+button {
+  background-color: #4a75a7;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  transition: background-color 0.3s ease;
+  display: block; 
+  cursor: pointer; /* Mejora: cursor de puntero */
+}
+
+button:hover {
+  background-color: #3a5a80;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
